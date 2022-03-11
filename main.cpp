@@ -23,15 +23,12 @@ int main()
         if (var==1)
         {
             ManualInput();
-            TaskText();
             printf("\nОтвет: ");
             TaskResponse();
         }
         if (var==2)
         {
             text();
-            AutomaticGeneration();
-            TaskText();
             printf("\nОтвет: ");
             TaskResponse();
         }
